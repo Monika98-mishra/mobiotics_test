@@ -1,0 +1,76 @@
+.OfferText{
+  margin-left: 78px;
+  color:red;
+}
+.OfferText1 {
+  left: 50%;
+  position: absolute;
+  top: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+}
+.OfferText2{
+  left: 50%;
+  position: absolute;
+  top: 70px;
+  font-size: 15px;
+  font-family: "Times New Roman", Times, serif;
+  
+}
+.OfferText3{
+  left: 50%;
+  position: absolute;
+  top: 110px;
+  font-size: 15px;
+  font-family: "Times New Roman", Times, serif;
+}
+.OfferText4{
+  left: 50%;
+  position: absolute;
+  top: 140px;
+  font-size: 15px;
+  font-family: "Times New Roman", Times, serif;
+}
+.OfferText5{
+  left: 50%;
+  position: absolute;
+  top: 170px;
+  font-size: 15px;
+  font-family: "Times New Roman", Times, serif;
+}
+.orange{
+  background-color: red!important;
+}
+/* .offerText6{
+  left: 50%;
+  position: absolute;
+  top: 230px;
+  font-size: 15px;
+  font-family: "Times New Roman", Times, serif;
+}
+.offerText7{
+  left: 50%;
+  position: absolute;
+  top: 270px;
+  font-size: 15px;
+  font-family: "Times New Roman", Times, serif;
+} */
+.btn-group{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5px;
+  
+}
+.footer_container{
+  position: absolute;
+  bottom: 0;
+  left:10%;
+  position: fixed;
+  z-index: 1;
+}
+.conatiner{
+  height: 100vh;
+  overflow-y:scroll;
+} 

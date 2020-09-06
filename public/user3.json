@@ -1,0 +1,14 @@
+
+  [
+    {
+    "id":1,
+    "BrandName":"Amul",
+    "ProductName" : "Amul Pure Ghee",
+    "Quantity":"1 L",
+    "Price" : "MRP 460",
+    "MRF" : "Rs 439",
+    "ImageURL":"3.jpg",
+    "OfferText":"15% OFF"
+    }
+                   
+   ]

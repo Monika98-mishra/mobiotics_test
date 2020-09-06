@@ -1,0 +1,13 @@
+[
+    {
+    "id":1,
+    "BrandName":"Arya Farm",
+    "ProductName" : "Arya Farm Organic Cow's Ghee",
+    "Quantity":"1 L",
+    "Price" : "MRP 550",
+    "MRF" : "Rs 510",
+    "ImageURL":"5.jpg",
+    "OfferText":"5% OFF"
+    }
+                   
+   ]

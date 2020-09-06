@@ -1,0 +1,13 @@
+[
+    {
+    "id":1,
+    "BrandName":"Nandini",
+    "ProductName" : "Nandini Pure Cow Ghee",
+    "Quantity":"1 L",
+    "Price" : "MRP 490",
+    "MRF" : "Rs 430",
+    "ImageURL":"6.jpg",
+    "OfferText":"5% OFF"
+    }
+                   
+   ]

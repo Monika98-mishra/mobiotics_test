@@ -1,0 +1,15 @@
+
+  [
+    {
+    "id":1,
+    "BrandName":"Milkfood",
+    "ProductName" : "Milkfood Rich Desai Danedar Ghee",
+    "Quantity":"1 L",
+    "Price" : "MRP 498",
+    "MRF" : "Rs 408",
+    "ImageURL":"1.jpg",
+    "OfferText":"18% OFF"
+    }
+                   
+   ]
+   

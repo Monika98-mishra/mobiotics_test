@@ -1,0 +1,13 @@
+[
+    {
+    "id":1,
+    "BrandName":"Patanjali",
+    "ProductName" : "Patanjali Cow's Ghee",
+    "Quantity":"1 L",
+    "Price" : "MRP 440",
+    "MRF" : "Rs 430",
+    "ImageURL":"4.jpg",
+    "OfferText":"15% OFF"
+    }
+                   
+   ]

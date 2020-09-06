@@ -1,0 +1,14 @@
+
+  [
+    {
+    "id":1,
+    "BrandName":"Grofer Mother's Choice",
+    "ProductName" : "Grofer Mother's Choice Desi Ghee",
+    "Quantity":"1 L",
+    "Price" : "MRP 450",
+    "MRF" : "Rs 414",
+    "ImageURL":"2.jpg",
+    "OfferText":"8% OFF"
+    }
+                   
+   ]
