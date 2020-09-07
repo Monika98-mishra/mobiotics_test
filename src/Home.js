@@ -67,53 +67,87 @@ class Home extends Component {
         this.readUser4();
     }
 
+   
     decrement = () => {
-       
-        this.setState({
-                 
+        this.setState(prevState => {
+          if(prevState.initialNumber > 0) {
+            return {
+            //   quantity: prevState.quantity - 1
             initialNumber: this.state.initialNumber - 1
-        })
-    }
+            }
+          } else {
+            return null;
+          }
+        });
+      }
     increment = () => {
         this.setState({
             initialNumber: this.state.initialNumber + 1
         })
     }
     decrement1 = () => {
-        this.setState({
+        this.setState(prevState => {
+          if(prevState.initialNumber1 > 0) {
+            return {
+            //   quantity: prevState.quantity - 1
             initialNumber1: this.state.initialNumber1 - 1
-        })
-    }
+            }
+          } else {
+            return null;
+          }
+        });
+      }
     increment1 = () => {
         this.setState({
             initialNumber1: this.state.initialNumber1 + 1
         })
     }
     decrement2 = () => {
-        this.setState({
+        this.setState(prevState => {
+          if(prevState.initialNumber2 > 0) {
+            return {
+            //   quantity: prevState.quantity - 1
             initialNumber2: this.state.initialNumber2 - 1
-        })
-    }
+            }
+          } else {
+            return null;
+          }
+        });
+      }
     increment2 = () => {
         this.setState({
             initialNumber2: this.state.initialNumber2 + 1
         })
     }
     decrement3 = () => {
-        this.setState({
+        this.setState(prevState => {
+          if(prevState.initialNumber3 > 0) {
+            return {
+            //   quantity: prevState.quantity - 1
             initialNumber3: this.state.initialNumber3 - 1
-        })
-    }
+            }
+          } else {
+            return null;
+          }
+        });
+      }
     increment3 = () => {
         this.setState({
             initialNumber3: this.state.initialNumber3 + 1
         })
     }
     decrement4 = () => {
-        this.setState({
+        this.setState(prevState => {
+          if(prevState.initialNumber4 > 0) {
+            return {
+            //   quantity: prevState.quantity - 1
             initialNumber4: this.state.initialNumber4 - 1
-        })
-    }
+            }
+          } else {
+            return null;
+          }
+        });
+      }
     increment4 = () => {
         this.setState({
             initialNumber4: this.state.initialNumber4 + 1
@@ -312,7 +346,7 @@ class Home extends Component {
 
                     <div className="col-md-2"></div>
                 </div>
-                <CheckOut value={this.state.initialNumber} value1={this.state.initialNumber1}value2={this.state.initialNumber2}value3={this.state.initialNumber3}value4={this.state.initialNumber4} MRF={this.state.MRF} />
+                <CheckOut value={this.state.initialNumber} value1={this.state.initialNumber1}value2={this.state.initialNumber2}value3={this.state.initialNumber3} MRF={this.state.MRF} />
             </div>
 
         )
